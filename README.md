@@ -1,0 +1,3 @@
+# PHP Array Key Type Bug
+
+This repository demonstrates a subtle bug related to array key handling in PHP. PHP's loose typing allows for both integer and string keys. This example shows how using both integer and string keys that have equivalent string representations might lead to incorrect results.  The bug arises from the implicit type coercion of keys. Solutions will be provided in the bugSolution file.
